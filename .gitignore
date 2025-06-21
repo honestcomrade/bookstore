@@ -1,0 +1,56 @@
+# === Java / Gradle ===
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories
+/build/
+/out/
+/target/
+
+# Gradle files
+.gradle/
+/**/build/
+
+# Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local environment files
+.env
+*.log
+*.tmp
+
+# === IDEs ===
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# === OS-Specific ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# === Misc ===
+# Logs and temp files
+*.log
+*.swp
+*~
+
+# Dependency caches (optional)
+**/.mvn/
+**/.gradle/
